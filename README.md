@@ -12,5 +12,5 @@ This project consists of the following steps:
 * Creating Table using Crawler to identify data and create schemas
 * Using Glue to perform ETL Job to convert files into ORC format (conversion to column format for increased efficiency of relevant queries)
 * Analyzing data from S3 using AWS Athena
-* Creating cluster and moving files to Redshift (creating Data Warehouse)
-* Creating a visualisation of analyzed data with QuickSight
+* Creating cluster and loading data into Redshift through Python script (creating Data Warehouse)
+* Creating a connection from Athena to PowerBI and visualisation of analyzed data
