@@ -11,15 +11,19 @@ This project consists of the following steps:
 * Creating proper roles in AWS and Database in AWS Glue
 * Creating Table using Crawler to identify data and create schemas
 * Using Glue to perform ETL Job to convert files into ORC format (conversion to column format for increased efficiency of relevant queries)
-* Analyzing data from S3 using AWS Athena
+* Analyzing data from S3 using AWS Athena (copied to SQL file and uploaded into repository)
 * Creating a connection from AWS S3 to Snowflake
-* Creating DWH in Snowflake and insert there data from our S3 folder (copied to sql file and uploaded into repository)
+* Creating DWH in Snowflake and insert there data from our S3 folder (copied to SQL file and uploaded into repository)
 * Creating a connection from Athena to QuickSight and visualisation of analyzed data
 
 
 <b> Examples:</b>
 - ETL Job in Glue to transform data into ORC format and get rid of unnecessary columns
 ![glue_job](https://github.com/artpat96/Data_Lake/assets/111128309/003f614b-86ed-43e2-8b22-06968014d59c)
+
+- DWH in Snowflake with uploaded data
+![wines_snowflake](https://github.com/artpat96/Data_Lake/assets/111128309/9545eee7-bb25-4b74-92fc-e3ad618d43bb)
+
 
 Scripts to transofrm JSON into CSV file, connecting S3 to Snowflake and queries done in Athena are attached in the repository
 
