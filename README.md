@@ -16,6 +16,7 @@ This project consists of the following steps:
 * Creating DWH in Snowflake and insert there data from our S3 folder (copied to SQL file and uploaded into repository)
 * Creating a connection from Athena to QuickSight and visualisation of analyzed data
 
+Tools used in project and directory is showed in architecture.jpg file.
 
 <b> Examples:</b>
 - ETL Job in Glue to transform data into ORC format and get rid of unnecessary columns
